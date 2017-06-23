@@ -24,3 +24,12 @@
 
 1. At the destination, all messages will be checked if sender is authorized to perform that action. 
 2. If unauthorized, send an exception message back. 
+
+
+# Security Design 
+
+1. An attacker might get whole password database. 
+2. Attacker might (and probably will) know the hash algorithm we are using. 
+3. With these informations, he/she shouldn't be able to 
+   1. Retrieve original password.
+   2. Retrieve any sensitive user data
