@@ -19,16 +19,23 @@
     }
     ```
 2. Check if user exists in the database. 
-2. If exists, generate a random token in server 
-3. Add the following object to the temporary authentication table:
+2. If exists, generate `a-random-token` in the server 
+3. Add the following object to the `session-cache` store:
     ```ls
-    {
-      token: new-token 
+    a-random-token:
       user: the-user-id 
       date: some-timestamp
     }
     ``` 
-4. Send the token to the client.
+    
+4. Send the token to the client: 
+    ```ls 
+    TEMPLATE <<<< {
+        auth: 
+            token: 'a-random-token'
+            user: the-user-id 
+    }
+    ```
 
 ### Logout 
 
