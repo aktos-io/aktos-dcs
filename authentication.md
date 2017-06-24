@@ -22,7 +22,7 @@
 2. If exists, generate `a-random-token` in the server 
 3. Add the following object to the `session-cache` store:
     ```ls
-    a-random-token:
+    session-cache[a-random-token] = {
       user: the-user-id 
       date: some-timestamp
     }
