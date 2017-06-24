@@ -2,7 +2,22 @@
 
 ### Login
 
-1. Send `username` + `password` to server. 
+1. Send `username` + `password` to server, like so: 
+
+    ```ls 
+    TEMPLATE <<<< {
+        auth: 
+            username: 'your-username'
+            password: 'your-password'
+    }
+    ```
+    or 
+    ```ls 
+    TEMPLATE <<<< {
+        auth: 
+            token: 'your-existing-token'
+    }
+    ```
 2. Check if user exists in the database. 
 2. If exists, generate a random token in server 
 3. Add the following object to the temporary authentication table:
