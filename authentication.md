@@ -10,11 +10,29 @@
     {
       token: new-token 
       user: the-user-id 
-      authorized: [some, objects] 
-      timestamp: some-timestamp
+      date: some-timestamp
     }
     ``` 
 4. Send the token to the client.
+
+### Logout 
+
+Send following message to logout: 
+
+```ls 
+TEMPLATE <<<< {
+    auth: logout: yes 
+}
+```
+
+Server responds with the following message: 
+
+```ls 
+TEMPLATE <<<< {
+    auth: logout: 'ok' 
+}
+```
+
 
 ### Authenticating messages 
 
