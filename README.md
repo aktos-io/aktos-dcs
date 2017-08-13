@@ -7,3 +7,15 @@ This is the design blueprint of aktos-dcs library. Any port must be written base
 * [Message Format](./message-format.md)
 * [Actor Design](./actor-design.md)
 * [Authentication](./authentication.md)
+
+
+# Implementations
+
+## v2.x
+
+* [aktos-dcs-node](https://github.com/aktos-io/aktos-dcs-node) : NodeJS implementation. 
+
+## v1.x
+
+* [aktos-dcs-python](https://github.com/aktos-io/aktos-dcs-python) : Python implementation.
+* [aktos-dcs-cs](https://github.com/aktos-io/aktos-dcs-python) : C# implementation both visual and command line examples 
