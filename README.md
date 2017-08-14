@@ -1,10 +1,11 @@
-# aktos-dcs-design
+# Description
 
-This is the design blueprint of aktos-dcs library. Any port must be written based on this spec. 
+This is the design blueprints of aktos-dcs library. Any port must be written based on this spec. 
 
 ### Contents
 
 * [Message Format](./message-format.md)
+* [Message Routing](./message-routing.md)
 * [Actor Design](./actor-design.md)
 * [Authentication](./authentication.md)
 
