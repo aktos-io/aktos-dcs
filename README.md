@@ -18,4 +18,4 @@ This is the design blueprint of aktos-dcs library. Any port must be written base
 ## v1.x
 
 * [aktos-dcs-python](https://github.com/aktos-io/aktos-dcs-python) : Python implementation.
-* [aktos-dcs-cs](https://github.com/aktos-io/aktos-dcs-python) : C# implementation both visual and command line examples 
+* [aktos-dcs-cs](https://github.com/aktos-io/aktos-dcs-cs) : C# implementation both visual and command line examples 
