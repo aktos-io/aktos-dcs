@@ -1,6 +1,17 @@
 # Description
 
-This is the design blueprints of aktos-dcs library. Any port must be written based on this spec. 
+This is the design blueprints of aktos message passing library for distributed controller systems.
+
+# Design Principles
+
+This design is created to match with the following requirements: 
+
+* Easy debugging of distributed systems (eg. with `nc` by a human readable data format, JSON)
+* Easy re-implementation (for another language)
+* Interoperable with both server-side and client-side (browser) applications. 
+* Provide authentication and authorization layers out of the box
+* Easily understandable for adapting new team members 
+* Easily extendable to support new protocols
 
 ### Contents
 
