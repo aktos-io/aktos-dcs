@@ -19,6 +19,7 @@ This design is created to match with the following requirements:
 * [Message Routing](./message-routing.md)
 * [Actor Design](./actor-design.md)
 * [Authentication](./authentication.md)
+* [Authorization](./authorization.md)
 
 
 # Implementations
