@@ -2,7 +2,7 @@
 
 This is the design blueprints of aktos message passing library for distributed controller systems.
 
-# Design Principles
+### Design Principles
 
 This design is created to match with the following requirements: 
 
