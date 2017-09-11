@@ -1,6 +1,6 @@
 # Description
 
-This is the design blueprints of aktos message passing library for distributed controller systems.
+This is the design blueprints of aktos message passing library for distributed controller systems to build huge systems by following microservices architecture.
 
 ### Design Principles
 
@@ -13,7 +13,7 @@ This design is created to match with the following requirements:
 * Easily understandable for adapting new team members 
 * Easily extendable to support new protocols
 
-### Contents
+# Contents
 
 * [Message Format](./message-format.md)
 * [Message Routing](./message-routing.md)
