@@ -26,9 +26,20 @@ This design is created to match with the following requirements:
 
 ## v2.x
 
-* [aktos-dcs-node](https://github.com/aktos-io/aktos-dcs-node) : NodeJS implementation. 
+* [aktos-dcs-node](https://github.com/aktos-io/aktos-dcs-node)
+  * Language: NodeJS/Javascript (in Livescript)
+  * aktos-dcs version: 2.x
+  * aktos-dcs implementation status: Complete
+  * Additional Features: 
+    * CouchDCS driver: Enables using CouchDB in DCS network
+    * Protocols: 
+      * Siemens S7
+      * Omron Hostlink, FINS
+      * Raspberry GPIo
 
 ## v1.x
+
+> NOTE: v1.x will be deprecated in the near future.
 
 * [aktos-dcs-python](https://github.com/aktos-io/aktos-dcs-python) : Python implementation.
 * [aktos-dcs-cs](https://github.com/aktos-io/aktos-dcs-cs) : C# implementation both visual and command line examples 
