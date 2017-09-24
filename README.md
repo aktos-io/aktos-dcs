@@ -6,12 +6,11 @@ This is the design blueprints of aktos message passing library for distributed c
 
 This design is created to match with the following requirements: 
 
-* Easy debugging of distributed systems (eg. with `nc` by a human readable data format, JSON)
-* Easy re-implementation (for another language)
-* Interoperable with both server-side and client-side (browser) applications. 
+* Easy debugging of the distributed system 
+* Easy re-implementation (in another programming language)
 * Provide authentication and authorization layers out of the box
-* Easily understandable for adapting new team members 
-* Easily extendable to support new protocols
+* Easily understandable concepts to adapt new team members rapidly.
+* Easily extendable to support new protocols and transports.
 
 # Contents
 
