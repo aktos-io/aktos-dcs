@@ -2,6 +2,8 @@
 
 This is the design blueprints of aktos message passing library for distributed controller systems to build huge systems by following microservices architecture.
 
+> Note: This blueprint primarily follows the [`aktos-dcs-node`](https://github.com/aktos-io/aktos-dcs-node) implementation.
+
 ### Design Principles
 
 This design is created to match with the following requirements: 
